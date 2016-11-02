@@ -1,0 +1,39 @@
+*{
+	margin: 0px;
+	width:100%;
+	box-sizing: border-box;
+}
+#container{
+	width: 400px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: yellow;
+}
+
+.actions{
+	width:400px;
+	margin-right:auto;
+	margin-left: auto;
+}
+.color-pick {
+	background-color: red;
+	float:left;
+}
+.color-pick div{
+	width: 30px;
+	height: 30px;
+	margin: 2px;
+	float:left;
+	border-radius:10px;
+	border: 1px solid black;
+}
+.action__botones{
+	background-color:blue;
+	float:right;
+}
+
+.color-pick > * select{
+	border:1px solid #000;
+
+}
